@@ -1,4 +1,4 @@
-# 🎲 Diffusion Transformer (DiT) from Scratch — CIFAR-10
+#  Diffusion Transformer (DiT) from Scratch — CIFAR-10
 
 A complete, from-scratch implementation of a **Micro Diffusion Transformer (DiT)** trained directly in pixel space on CIFAR-10 (32×32×3). No pre-trained VAE — pure pixel-level diffusion with a transformer backbone.
 
