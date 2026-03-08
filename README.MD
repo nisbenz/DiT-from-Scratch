@@ -19,9 +19,9 @@ A complete, from-scratch implementation of a **Micro Diffusion Transformer (DiT)
 
 ```mermaid
 flowchart LR
-    A["🖼️ Noisy Image\n(B, 3, 32, 32)"] --> B["Patchify\nConv2d"]
+    A[" Noisy Image\n(B, 3, 32, 32)"] --> B["Patchify\nConv2d"]
     B --> C["+ Positional\nEmbedding"]
-    T["⏱️ Timestep t"] --> TE["Timestep\nEmbedder"]
+    T[" Timestep t"] --> TE["Timestep\nEmbedder"]
     TE --> D
     C --> D["6× adaLN-Zero\nTransformer Blocks"]
     D --> E["Final Layer"]
