@@ -107,7 +107,6 @@ flowchart LR
     D4 --> IMG[" Generated\nImage x₀"]
 ```
 
-$$x_{t-1} = \frac{1}{\sqrt{\alpha_t}} \left( x_t - \frac{\beta_t}{\sqrt{1 - \bar{\alpha}_t}} \cdot \varepsilon_\theta(x_t, t) \right) + \sigma_t \cdot z$$
 
 ---
 
